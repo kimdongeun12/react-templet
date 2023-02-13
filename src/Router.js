@@ -8,7 +8,7 @@ import RouteWrapper from './pages/RouteWrap';
 export default function Router() {
 
   return (
-    <HashRouter>
+    <HashRouter basename='/'>
     {/* <BrowserRouter> */}
       <Routes>
         <Route path="/" element={<RouteWrapper />}>

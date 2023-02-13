@@ -44,7 +44,7 @@ export default function DealListsLayout () {
         {
           itemList.map((el , idx) => (
             <Col className="gutter-row" span={12} key={idx}>
-              <Link to={`/deal/${el.id}}`}>
+              <Link to={`/deal/${el.id}`}>
                 <S.CardItem
                   hoverable
                   cover={<img alt="example" src={el.thumnail} />}
