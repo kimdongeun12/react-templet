@@ -1,0 +1,1 @@
+export const PUBLIC_URL = 'https://github.com/kimdongeun12.io/react-templet';

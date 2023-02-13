@@ -5,8 +5,10 @@ import DealDetail from './pages/Deal/DealDetail';
 import Shop from './pages/Shop/ShopLists';
 import RouteWrapper from './pages/RouteWrap';
 
-function Router() {
+export default function Router() {
+
   return (
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<RouteWrapper />}>
@@ -18,5 +20,3 @@ function Router() {
     </BrowserRouter>
   );
 }
-
-export default Router;
