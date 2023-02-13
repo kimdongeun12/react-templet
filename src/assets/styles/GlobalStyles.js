@@ -17,6 +17,9 @@ const GlobalStyles = createGlobalStyle`
         /* font-family: '', sans-serif; */
         margin:0 auto;
     }
+    img {
+        max-width: 100%;
+    }
 `;
 
 export default GlobalStyles;

@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import Router from './Router';
 import GlobalStyles from './assets/styles/GlobalStyles';
 
+import 'antd/dist/reset.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

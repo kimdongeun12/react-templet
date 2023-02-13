@@ -1,16 +1,20 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '../components/Header/Header';
+import styled from 'styled-components';
+import Header from '../components/Common/Header/Header';
 
-const RouteWrapper = () => {
+export default function RouteWrapper() {
   return (
     <>
       <Header />
-      <div>
+      <Contents>
         <Outlet />
-      </div>
+      </Contents>
     </>
   );
 };
 
-export default RouteWrapper;
+const Contents = styled.div`
+  padding-top: 56px;
+  padding-bottom: 40px;
+`
