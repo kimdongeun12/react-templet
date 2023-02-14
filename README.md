@@ -9,7 +9,7 @@ css는 vuetify를 이용했기에 많이 사용하지 않았지만 혹시 하드
 
 마지막으로 궁금하신점이 있다면 불러주세요 :)
 
-https://kimdongeun12.github.io/react-templet/#/ (주소가 안열려요,, ㅠㅠ 해결해올게요)
+https://kimdongeun12.github.io/react-templet/#/
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
